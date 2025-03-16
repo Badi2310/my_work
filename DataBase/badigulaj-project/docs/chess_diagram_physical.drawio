@@ -1,0 +1,672 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="2c4490ee-f0b8-94ab-5012-d5dc3445f7a3">
+    <mxGraphModel dx="1789" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-78" value="PLAYERS" style="shape=table;startSize=50;container=1;collapsible=0;childLayout=tableLayout;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="44" width="600" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-78">
+          <mxGeometry y="50" width="600" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-80" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-79">
+          <mxGeometry width="129" height="62" as="geometry">
+            <mxRectangle width="129" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-81" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-79">
+          <mxGeometry x="129" width="138" height="62" as="geometry">
+            <mxRectangle width="138" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-82" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-79">
+          <mxGeometry x="267" width="174" height="62" as="geometry">
+            <mxRectangle width="174" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-83" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-79">
+          <mxGeometry x="441" width="159" height="62" as="geometry">
+            <mxRectangle width="159" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-84" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-78">
+          <mxGeometry y="112" width="600" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-85" value="player_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-84">
+          <mxGeometry width="129" height="62" as="geometry">
+            <mxRectangle width="129" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-86" value="ID игрока" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-84">
+          <mxGeometry x="129" width="138" height="62" as="geometry">
+            <mxRectangle width="138" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-87" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-84">
+          <mxGeometry x="267" width="174" height="62" as="geometry">
+            <mxRectangle width="174" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-88" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-84">
+          <mxGeometry x="441" width="159" height="62" as="geometry">
+            <mxRectangle width="159" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-89" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-78">
+          <mxGeometry y="174" width="600" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-90" value="first_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-89">
+          <mxGeometry width="129" height="62" as="geometry">
+            <mxRectangle width="129" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-91" value="имя" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-89">
+          <mxGeometry x="129" width="138" height="62" as="geometry">
+            <mxRectangle width="138" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-92" value="varchar(200)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-89">
+          <mxGeometry x="267" width="174" height="62" as="geometry">
+            <mxRectangle width="174" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-93" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-89">
+          <mxGeometry x="441" width="159" height="62" as="geometry">
+            <mxRectangle width="159" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-94" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-78">
+          <mxGeometry y="236" width="600" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-95" value="last_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-94">
+          <mxGeometry width="129" height="62" as="geometry">
+            <mxRectangle width="129" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-96" value="фамилия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-94">
+          <mxGeometry x="129" width="138" height="62" as="geometry">
+            <mxRectangle width="138" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-97" value="varchar(200)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-94">
+          <mxGeometry x="267" width="174" height="62" as="geometry">
+            <mxRectangle width="174" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-98" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-94">
+          <mxGeometry x="441" width="159" height="62" as="geometry">
+            <mxRectangle width="159" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-78">
+          <mxGeometry y="298" width="600" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-100" value="federation_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-99">
+          <mxGeometry width="129" height="62" as="geometry">
+            <mxRectangle width="129" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-101" value="ID федерации" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-99">
+          <mxGeometry x="129" width="138" height="62" as="geometry">
+            <mxRectangle width="138" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-102" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-99">
+          <mxGeometry x="267" width="174" height="62" as="geometry">
+            <mxRectangle width="174" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-103" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-99">
+          <mxGeometry x="441" width="159" height="62" as="geometry">
+            <mxRectangle width="159" height="62" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-104" value="RATING_HISTORY" style="shape=table;startSize=60;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="444" width="600" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="60" width="600" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-106" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-105">
+          <mxGeometry width="138" height="52" as="geometry">
+            <mxRectangle width="138" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-107" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-105">
+          <mxGeometry x="138" width="147" height="52" as="geometry">
+            <mxRectangle width="147" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-108" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-105">
+          <mxGeometry x="285" width="195" height="52" as="geometry">
+            <mxRectangle width="195" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-109" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-105">
+          <mxGeometry x="480" width="120" height="52" as="geometry">
+            <mxRectangle width="120" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="112" width="600" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-111" value="rating_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-110">
+          <mxGeometry width="138" height="57" as="geometry">
+            <mxRectangle width="138" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-112" value="&amp;nbsp;ID рейтинга" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-110">
+          <mxGeometry x="138" width="147" height="57" as="geometry">
+            <mxRectangle width="147" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-113" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-110">
+          <mxGeometry x="285" width="195" height="57" as="geometry">
+            <mxRectangle width="195" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-114" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-110">
+          <mxGeometry x="480" width="120" height="57" as="geometry">
+            <mxRectangle width="120" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="169" width="600" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-116" value="player_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-115">
+          <mxGeometry width="138" height="54" as="geometry">
+            <mxRectangle width="138" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-117" value="ID игрока" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-115">
+          <mxGeometry x="138" width="147" height="54" as="geometry">
+            <mxRectangle width="147" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-118" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-115">
+          <mxGeometry x="285" width="195" height="54" as="geometry">
+            <mxRectangle width="195" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-119" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-115">
+          <mxGeometry x="480" width="120" height="54" as="geometry">
+            <mxRectangle width="120" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-146" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="223" width="600" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-147" value="rating" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-146">
+          <mxGeometry width="138" height="54" as="geometry">
+            <mxRectangle width="138" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-148" value="рейтинг" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-146">
+          <mxGeometry x="138" width="147" height="54" as="geometry">
+            <mxRectangle width="147" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-149" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-146">
+          <mxGeometry x="285" width="195" height="54" as="geometry">
+            <mxRectangle width="195" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-150" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-146">
+          <mxGeometry x="480" width="120" height="54" as="geometry">
+            <mxRectangle width="120" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-151" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="277" width="600" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-152" value="start_dat&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-151">
+          <mxGeometry width="138" height="54" as="geometry">
+            <mxRectangle width="138" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-153" value="дата назначения" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-151">
+          <mxGeometry x="138" width="147" height="54" as="geometry">
+            <mxRectangle width="147" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-154" value="timestamp" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-151">
+          <mxGeometry x="285" width="195" height="54" as="geometry">
+            <mxRectangle width="195" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-155" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-151">
+          <mxGeometry x="480" width="120" height="54" as="geometry">
+            <mxRectangle width="120" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-156" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="331" width="600" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-157" value="end_date" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-156">
+          <mxGeometry width="138" height="57" as="geometry">
+            <mxRectangle width="138" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-158" value="дата изменения" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-156">
+          <mxGeometry x="138" width="147" height="57" as="geometry">
+            <mxRectangle width="147" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-159" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;timestamp&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-156">
+          <mxGeometry x="285" width="195" height="57" as="geometry">
+            <mxRectangle width="195" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-160" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-156">
+          <mxGeometry x="480" width="120" height="57" as="geometry">
+            <mxRectangle width="120" height="57" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-161" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-104">
+          <mxGeometry y="388" width="600" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-162" value="is_carrent" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-161">
+          <mxGeometry width="138" height="52" as="geometry">
+            <mxRectangle width="138" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-163" value="актуальность" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-161">
+          <mxGeometry x="138" width="147" height="52" as="geometry">
+            <mxRectangle width="147" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-164" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-161">
+          <mxGeometry x="285" width="195" height="52" as="geometry">
+            <mxRectangle width="195" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-165" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-161">
+          <mxGeometry x="480" width="120" height="52" as="geometry">
+            <mxRectangle width="120" height="52" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-166" value="REGISTRATION_ON_TOURNAMENT" style="shape=table;startSize=60;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="160" y="924" width="600" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-167" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-166">
+          <mxGeometry y="60" width="600" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-168" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-167">
+          <mxGeometry width="138" height="78" as="geometry">
+            <mxRectangle width="138" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-169" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-167">
+          <mxGeometry x="138" width="147" height="78" as="geometry">
+            <mxRectangle width="147" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-170" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-167">
+          <mxGeometry x="285" width="195" height="78" as="geometry">
+            <mxRectangle width="195" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-171" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-167">
+          <mxGeometry x="480" width="120" height="78" as="geometry">
+            <mxRectangle width="120" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-172" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-166">
+          <mxGeometry y="138" width="600" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-173" value="player_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-172">
+          <mxGeometry width="138" height="64" as="geometry">
+            <mxRectangle width="138" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-174" value="ID игрока" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-172">
+          <mxGeometry x="138" width="147" height="64" as="geometry">
+            <mxRectangle width="147" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-175" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-172">
+          <mxGeometry x="285" width="195" height="64" as="geometry">
+            <mxRectangle width="195" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-176" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-172">
+          <mxGeometry x="480" width="120" height="64" as="geometry">
+            <mxRectangle width="120" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-177" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-166">
+          <mxGeometry y="202" width="600" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-178" value="tournament_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-177">
+          <mxGeometry width="138" height="78" as="geometry">
+            <mxRectangle width="138" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-179" value="ID турнира" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-177">
+          <mxGeometry x="138" width="147" height="78" as="geometry">
+            <mxRectangle width="147" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-180" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-177">
+          <mxGeometry x="285" width="195" height="78" as="geometry">
+            <mxRectangle width="195" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-181" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-177">
+          <mxGeometry x="480" width="120" height="78" as="geometry">
+            <mxRectangle width="120" height="78" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-270" value="TOURNAMENT_ID" style="shape=table;startSize=40;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="920" y="844" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-271" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-270">
+          <mxGeometry y="40" width="640" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-272" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-271">
+          <mxGeometry width="148" height="65" as="geometry">
+            <mxRectangle width="148" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-273" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-271">
+          <mxGeometry x="148" width="124" height="65" as="geometry">
+            <mxRectangle width="124" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-274" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-271">
+          <mxGeometry x="272" width="196" height="65" as="geometry">
+            <mxRectangle width="196" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-275" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-271">
+          <mxGeometry x="468" width="172" height="65" as="geometry">
+            <mxRectangle width="172" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-276" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-270">
+          <mxGeometry y="105" width="640" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-277" value="tournament_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-276">
+          <mxGeometry width="148" height="71" as="geometry">
+            <mxRectangle width="148" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-278" value="ID турнира" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-276">
+          <mxGeometry x="148" width="124" height="71" as="geometry">
+            <mxRectangle width="124" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-279" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-276">
+          <mxGeometry x="272" width="196" height="71" as="geometry">
+            <mxRectangle width="196" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-280" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-276">
+          <mxGeometry x="468" width="172" height="71" as="geometry">
+            <mxRectangle width="172" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-281" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-270">
+          <mxGeometry y="176" width="640" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-282" value="federation_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-281">
+          <mxGeometry width="148" height="113" as="geometry">
+            <mxRectangle width="148" height="113" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-283" value="ID федерации организатора" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-281">
+          <mxGeometry x="148" width="124" height="113" as="geometry">
+            <mxRectangle width="124" height="113" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-284" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-281">
+          <mxGeometry x="272" width="196" height="113" as="geometry">
+            <mxRectangle width="196" height="113" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-285" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-281">
+          <mxGeometry x="468" width="172" height="113" as="geometry">
+            <mxRectangle width="172" height="113" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-353" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-270">
+          <mxGeometry y="289" width="640" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-354" value="status" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-353">
+          <mxGeometry width="148" height="71" as="geometry">
+            <mxRectangle width="148" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-355" value="уровень мероприятия" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-353">
+          <mxGeometry x="148" width="124" height="71" as="geometry">
+            <mxRectangle width="124" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-356" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-353">
+          <mxGeometry x="272" width="196" height="71" as="geometry">
+            <mxRectangle width="196" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-357" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-353">
+          <mxGeometry x="468" width="172" height="71" as="geometry">
+            <mxRectangle width="172" height="71" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-291" value="FEDERATION" style="shape=table;startSize=60;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="920" y="504" width="640" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-292" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-291">
+          <mxGeometry y="60" width="640" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-293" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-292">
+          <mxGeometry width="148" height="65" as="geometry">
+            <mxRectangle width="148" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-294" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-292">
+          <mxGeometry x="148" width="124" height="65" as="geometry">
+            <mxRectangle width="124" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-295" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-292">
+          <mxGeometry x="272" width="197" height="65" as="geometry">
+            <mxRectangle width="197" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-296" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-292">
+          <mxGeometry x="469" width="171" height="65" as="geometry">
+            <mxRectangle width="171" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-297" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-291">
+          <mxGeometry y="125" width="640" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-298" value="federation_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-297">
+          <mxGeometry width="148" height="70" as="geometry">
+            <mxRectangle width="148" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-299" value="ID федерации" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-297">
+          <mxGeometry x="148" width="124" height="70" as="geometry">
+            <mxRectangle width="124" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-300" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-297">
+          <mxGeometry x="272" width="197" height="70" as="geometry">
+            <mxRectangle width="197" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-301" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-297">
+          <mxGeometry x="469" width="171" height="70" as="geometry">
+            <mxRectangle width="171" height="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-302" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-291">
+          <mxGeometry y="195" width="640" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-303" value="federation_name" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-302">
+          <mxGeometry width="148" height="65" as="geometry">
+            <mxRectangle width="148" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-304" value="название федерации" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-302">
+          <mxGeometry x="148" width="124" height="65" as="geometry">
+            <mxRectangle width="124" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-305" value="varchar(200)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-302">
+          <mxGeometry x="272" width="197" height="65" as="geometry">
+            <mxRectangle width="197" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-306" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-302">
+          <mxGeometry x="469" width="171" height="65" as="geometry">
+            <mxRectangle width="171" height="65" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-312" value="GAMES" style="shape=table;startSize=60;container=1;collapsible=0;childLayout=tableLayout;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="920" y="34" width="640" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-313" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=#d6b656;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=#fff2cc;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="60" width="640" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-314" value="Название" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=center;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-313">
+          <mxGeometry width="184" height="64" as="geometry">
+            <mxRectangle width="184" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-315" value="Описание" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-313">
+          <mxGeometry x="184" width="169" height="64" as="geometry">
+            <mxRectangle width="169" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-316" value="Тип данных" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-313">
+          <mxGeometry x="353" width="200" height="64" as="geometry">
+            <mxRectangle width="200" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-317" value="Ограничение" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#d6b656;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-313">
+          <mxGeometry x="553" width="87" height="64" as="geometry">
+            <mxRectangle width="87" height="64" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-318" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="124" width="640" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-319" value="game_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-318">
+          <mxGeometry width="184" height="34" as="geometry">
+            <mxRectangle width="184" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-320" value="ID игры" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-318">
+          <mxGeometry x="184" width="169" height="34" as="geometry">
+            <mxRectangle width="169" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-321" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-318">
+          <mxGeometry x="353" width="200" height="34" as="geometry">
+            <mxRectangle width="200" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-322" value="PK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-318">
+          <mxGeometry x="553" width="87" height="34" as="geometry">
+            <mxRectangle width="87" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-323" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="158" width="640" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-324" value="white_player_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-323">
+          <mxGeometry width="184" height="108" as="geometry">
+            <mxRectangle width="184" height="108" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-325" value="ID играющего за белый цвет" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-323">
+          <mxGeometry x="184" width="169" height="108" as="geometry">
+            <mxRectangle width="169" height="108" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-326" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-323">
+          <mxGeometry x="353" width="200" height="108" as="geometry">
+            <mxRectangle width="200" height="108" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-327" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-323">
+          <mxGeometry x="553" width="87" height="108" as="geometry">
+            <mxRectangle width="87" height="108" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-328" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="266" width="640" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-329" value="black_player_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-328">
+          <mxGeometry width="184" height="66" as="geometry">
+            <mxRectangle width="184" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-330" value="ID играющих за черный цвет" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-328">
+          <mxGeometry x="184" width="169" height="66" as="geometry">
+            <mxRectangle width="169" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-331" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-328">
+          <mxGeometry x="353" width="200" height="66" as="geometry">
+            <mxRectangle width="200" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-332" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-328">
+          <mxGeometry x="553" width="87" height="66" as="geometry">
+            <mxRectangle width="87" height="66" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-343" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="332" width="640" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-344" value="tournament_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-343">
+          <mxGeometry width="184" height="49" as="geometry">
+            <mxRectangle width="184" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-345" value="ID турнира" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-343">
+          <mxGeometry x="184" width="169" height="49" as="geometry">
+            <mxRectangle width="169" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-346" value="integer" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-343">
+          <mxGeometry x="353" width="200" height="49" as="geometry">
+            <mxRectangle width="200" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-347" value="FK" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-343">
+          <mxGeometry x="553" width="87" height="49" as="geometry">
+            <mxRectangle width="87" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-348" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-312">
+          <mxGeometry y="381" width="640" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-349" value="winner" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-348">
+          <mxGeometry width="184" height="49" as="geometry">
+            <mxRectangle width="184" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-350" value="белый цвет победил" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-348">
+          <mxGeometry x="184" width="169" height="49" as="geometry">
+            <mxRectangle width="169" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-351" value="boolean" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-348">
+          <mxGeometry x="353" width="200" height="49" as="geometry">
+            <mxRectangle width="200" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l4DfdUNJ-dBlsRW59xIO-352" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=20;" vertex="1" parent="l4DfdUNJ-dBlsRW59xIO-348">
+          <mxGeometry x="553" width="87" height="49" as="geometry">
+            <mxRectangle width="87" height="49" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
