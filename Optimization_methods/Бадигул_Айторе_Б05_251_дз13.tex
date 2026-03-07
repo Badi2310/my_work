@@ -1,0 +1,414 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb, amsthm}
+
+\begin{document}
+
+\section*{Сопряжённые функции}
+
+\subsection*{Задача 1. (7 баллов) Найдите $ f^*(y) $ к следующим функциям}
+
+\subsubsection*{1.1. (0.5 балла)}
+$ f : \mathbb{R} \to \mathbb{R} $: 
+$$
+f(x) = \max \{ |x|, x^2 \}.
+$$
+
+\textbf{1.1 решение}
+
+Функция $f(x)$ может быть записана в виде:
+$$
+f(x) = 
+\begin{cases} 
+|x|, & \text{если } |x| \leq 1, \\
+x^2, & \text{если } |x| \geq 1.
+\end{cases}
+$$
+
+Рассмотрим функцию  $g(x) = x y - f(x)$ и найдем супремум по $ x \in \mathbb{R} $, разбивая область на две части: $ |x| \leq 1 $ и $|x| \geq 1 $.
+
+\vspace{5 mm}
+
+1. $|x| \leq 1$
+
+\begin{itemize}
+\item При  $x \in [0, 1]$:  $g(x) = x y - x = x(y - 1) $.
+  \begin{itemize}
+  \item Если $ y > 1 $, максимум при $ x = 1 $: $ g(1) = y - 1 $.
+  \item Если $ y = 1 $, $ g(x) = 0 $.
+  \item Если $ y < 1 $, максимум при $ x = 0 $: $ g(0) = 0 $.
+  \end{itemize}
+  
+\item При $ x \in [-1, 0] $: $ g(x) = x y + x = x(y + 1) $.
+  \begin{itemize}
+  \item Если $ y > -1 $, максимум при $ x = 0 $: $ g(0) = 0 $.
+  \item Если $ y = -1 $, $ g(x) = 0 $.
+  \item Если $ y < -1 $, максимум при $ x = -1 $: $ g(-1) = -y - 1 $.
+  \end{itemize}
+\end{itemize}
+
+Итог для $ |x| \leq 1 $:
+$$
+\begin{cases}
+y - 1, & \text{если } y > 1, \\
+0, & \text{если } -1 \leq y \leq 1, \\
+-y - 1, & \text{если } y < -1.
+\end{cases}
+$$
+
+\vspace{15 mm}
+
+2. $ |x| \geq 1 $
+
+\begin{itemize}
+\item При $ x \geq 1 $: $ g(x) = x y - x^2 $. 
+  \begin{itemize}
+  \item $ x = \frac{y}{2} $. Она лежит в $ x \geq 1 $ при $ y \geq 2 $, значение: $ g(\frac{y}{2}) = \frac{y^2}{4} $.
+  \item При $ y < 2 $, максимум на $ x \geq 1 $ при $ x = 1 $: $ g(1) = y - 1 $.
+  \end{itemize}
+  
+\item При $ x \leq -1 $: $ g(x) = x y - x^2 $.
+  \begin{itemize}
+  \item $ x = \frac{y}{2} $. Она лежит в $ x \leq -1 $ при $ y \leq -2 $, значение: $ g(\frac{y}{2}) = \frac{y^2}{4} $.
+  \item При $ y > -2 $, максимум на $ x \leq -1 $ при $ x = -1 $: $ g(-1) = -y - 1 $.
+  \end{itemize}
+\end{itemize}
+
+Итог для $ |x| \geq 1 $:
+$$
+B(y) = 
+\begin{cases}
+\frac{y^2}{4}, & \text{если } y \geq 2, \\
+y - 1, & \text{если } 0 < y < 2, \\
+-y - 1, & \text{если } -2 < y < 0, \\
+\frac{y^2}{4}, & \text{если } y \leq -2.
+\end{cases}
+$$
+
+Расмотрим несколько случаев:
+
+\begin{itemize}
+\item При $ y > 2 $: $ A(y) = y - 1 $, $ B(y) = \frac{y^2}{4} $, причем $ \frac{y^2}{4} > y - 1 $, поэтому $ f^*(y) = \frac{y^2}{4} $.
+\item При $ 1 < y < 2 $: $ A(y) = y - 1 $, $ B(y) = y - 1 $, поэтому $ f^*(y) = y - 1 $.
+\item При $ -1 \leq y \leq 1 $: $ A(y) = 0 $, $ B(y) \leq 0 $, поэтому $ f^*(y) = 0 $.
+\item При $ -2 < y < -1 $: $ A(y) = -y - 1 $, $ B(y) = -y - 1 $, поэтому $ f^*(y) = -y - 1 $.
+\item При $ y < -2 $: $ A(y) = -y - 1 $, $ B(y) = \frac{y^2}{4} $, причем $ \frac{y^2}{4} > -y - 1 $, поэтому $ f^*(y) = \frac{y^2}{4} $.
+\end{itemize}
+
+получается:
+$$
+f^*(y) = 
+\begin{cases} 
+0, & \text{если } |y| \leq 1, \\
+|y| - 1, & \text{если } 1 < |y| < 2, \\
+\frac{y^2}{4}, & \text{если } |y| \geq 2.
+\end{cases}
+$$
+
+\subsubsection*{1.2. (0.5 балла)}
+$ f : \mathbb{R} \to \mathbb{R} $: 
+$$
+f(x) = (|x| + 1) \log(|x| + 1).
+$$
+\textit{Указание: можно пользоваться выпуклостью $ f(x) $ без доказательства.}
+
+\textbf{1.2 решение}
+
+заметим что сопряженная функция будет симметричной (так как сама функция симметрична)
+
+Б.О.О. будем находить $f^*(y)$ для $y > 0$
+
+ясно что супремум достигается при $x>=0$ 
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}} \{ x y - f(x) \} \\
+    &= \sup_{x \in \mathbb{R}} \{ x y - (|x| + 1) \log(|x| + 1) \\
+    &= \sup_{x \geq 0} \{ x y - (x + 1) \log(x + 1)
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+    g(x) &= x y - (x + 1) \log(x + 1) \\
+    g'(x) &= y - \log(x + 1) - 1
+\end{aligned}
+$$
+
+заметим что $y - \log(x + 1) - 1  =0$ возможно при $y > 1$
+
+так как производная функции f возрастает, то взглянув на производную в 0 можно понять что субградиент $\partial f(x_0) = [-1, 1]$ где $x_0 = 0$ (это значит что функция уже подпирается всеми прямыми $y \in [-1, 1]$ и в этом случае сдвиг не нужен, он равен 0)
+
+при $y < 0$ все аналогично, только используем $|y|$
+$$
+f^*(y)
+\begin{cases}
+    e^{y-1} - y, \quad |y| > 1 \\
+    0, \quad |y| \leq 1
+\end{cases}
+$$
+
+
+
+\subsubsection*{1.3. (1 балл)}
+$ f : \mathbb{R}^d \to \mathbb{R} $: 
+$$
+f(x) = (\|x\|_2 + 1) \log(\|x\|_2 + 1) - \|x\|_2.
+$$
+\textit{Указание: можно пользоваться выпуклостью $ f(x) $ без доказательства.}
+
+\textbf{1.2 решение}
+
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}} \{ \langle x, y\rangle - f(x) \} \\
+    &= \sup_{x \in \mathbb{R}} \{ \langle x, y\rangle - (\|x\|_2 + 1) \log(\|x\|_2 + 1) + \|x\|_2 \\
+    &= \sup_{\alpha > 0} \{\sup_{\|x\|_2  =\alpha}\{\langle x, y\rangle - (\alpha + 1) \log(\alpha + 1) + \alpha\}\}  \\
+    &= \sup_{\alpha > 0} \{\alpha \|y\|_2- (\alpha + 1) \log(\alpha + 1) + \alpha\} \\
+    & \text{супремум находится легко, так что я сразу напишу ответ} \\
+    &= e^{\|y\|_2} - \|y\| - 1
+\end{aligned}
+$$
+\subsubsection*{1.4. (1 балл)}
+$ f : \mathbb{R}^d \to \mathbb{R} $: 
+$$
+f(x) = \max_{i=1,d} x_i.
+$$
+
+\textbf{1.4 решение}
+
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}} \{ \langle x, y\rangle - f(x) \}
+\end{aligned}
+$$
+
+допустим в y есть отрицательная компонента. Тогда существует x такой что
+
+$x = (0, 0, ..., -t, ..., 0)$  где нулевая соответсвующая компонента где t > 0. То есть $f^*(y) = y_i(-t) - 0 \xrightarrow{t  arrow \infty} \infty$
+
+допусти что $\sum y_i\ne 1$. 
+
+$x = (t, ..., t)$. Тогда $f^*(y) = \sum y_i * t -t = t (\sum y_i - 1)  arrow \infty $
+при стремлении t в соответсвующую бесконечность
+
+если $y_i > 0 \quad \text{и} \quad \sum y_i = 1 $
+
+$$
+\langle y, x \rangle = \sum_{i=1}^d y_i x_i \leq \sum_{i=1}^d y_i \max_j x_j = \max_j x_j = f(x).
+$$
+Следовательно:
+$$
+\langle y, x \rangle - f(x) \leq 0.
+$$
+Равенство достигается, например, при  $x = 0$ . Таким образом, $ f^*(y) = 0$ .
+$$
+f^*(y) = 
+\begin{cases} 
+0, & \text{если } y_i \geq 0 \text{ и } \sum_{i=1}^d y_i = 1, \\
++\infty, & \text{иначе}.
+\end{cases}
+$$
+
+
+\subsubsection*{1.5. (1 балл)}
+$ f : \mathbb{R} \to \mathbb{R} $: 
+$$
+f(x) = \sqrt{1 + x^2}.
+$$
+
+\textbf{1.5 решение}
+
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}} \{ x y - f(x) \} \\
+    &= \sup_{x \in \mathbb{R}} \{ x y - \sqrt{1 + x^2} \} \\
+    & \text{легко посчитать супремум при |y| < 1} \\
+    &= - \sqrt{1 - y^2}
+\end{aligned}
+$$
+
+если же $y > 0$  то при $ x y - \sqrt{1 + x^2} \xrightarrow{{x  arrow \infty}} \infty $
+
+$$
+f^*(y) = 
+\begin{cases} 
+- \sqrt{1 - y^2}, & \text{если } |y| < 1 \\
++\infty, & \text{иначе}.
+\end{cases}
+$$
+
+
+\subsubsection*{1.6. (1 балл)}
+$ f : \mathbb{R} \to \mathbb{R} $: 
+$$
+f(x) = ch x - 1.
+$$
+
+\textbf{1.6 решение}
+
+% -------------------
+
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}} \{ x y - f(x) \} \\
+    &= \sup_{x \in \mathbb{R}} \{x y - ( ch x - 1) \}
+\end{aligned}
+$$
+
+$$
+g(x) = x y - (ch x - 1) = x y - ch x + 1.
+$$
+
+$$
+g'(x) = y - sh x.
+$$
+
+$$
+x = arsh y
+$$
+
+$$
+ch x = \sqrt{sh^2 x + 1} = \sqrt{y^2 + 1}.
+$$
+
+Тогда:
+$$
+\begin{aligned}
+g(x) &= x y - ch x + 1 \\
+&= y \cdot arsh y - \sqrt{y^2 + 1} + 1.
+\end{aligned}
+$$
+
+Получается
+$$
+f^*(y) = y \cdot arsh y - \sqrt{y^2 + 1} + 1.
+$$
+
+
+\subsubsection*{1.7. (2 балла)}
+$ f : \mathbb{S}_{++}^d \to \mathbb{R} $: 
+$$
+f(X) = Tr(X^{-1}).
+$$
+\textit{Указание: возможно пригодится, что $ (I_d + tuu^\top)^{-1} = I_d - \frac{tuu^\top}{1+t} $, где $ \|u\|_2 = 1 $.}
+
+\textbf{1.7 решение}
+
+Рассмотрим функцию $g(X) = Tr(Y X) - Tr(X^{-1})$.
+$$
+d g = Tr(Y^TdX) + Tr(X^{-1}dX X^{-1}) = Tr( (Y + X^{-2}) \, dX ).
+$$
+Для того чтобы это было равно нулю для всех $dX$, необходимо:
+$$
+Y + X^{-2} = 0 \quad  arrow \quad X^{-2} = -Y \quad  arrow \quad X = (-Y)^{-1/2}.
+$$
+Это возможно только если Y строго отрицательно определена. И тогда
+$$
+g(X) = -Tr(X^{-1}) - Tr(X^{-1}) = -2 Tr(X^{-1}) = -2 Tr((-Y)^{1/2}).
+$$
+
+Если $Y$ не отрицательно полуопределена, то существует направление, в котором $Y$ положительно определена, и тогда можно выбрать $X$ таким, что $Tr(Y X)$ неограниченно возрастает, а $Tr(X^{-1})$ ограничено, поэтому супремум равен $+\infty$.
+Получаем 
+
+$$
+f^*(Y) = 
+\begin{cases} 
+-2 Tr ( (-Y)^{1/2}  ), & \text{если } Y < 0, \\
++\infty, & \text{иначе}.
+\end{cases}
+$$
+
+\subsection*{Задача 2. (1 балл)}
+Выразите сопряжённую функцию $ f^*(y) $ через $ g^*(y) $ и $ h^*(y) $ для $ f : \mathbb{R}^d \to \mathbb{R} $: 
+$$
+f(x) = \inf_{u+v=x} (g(u) + h(v)),
+$$
+где $ g : \mathbb{R}^d \to \mathbb{R} $ и $ h : \mathbb{R}^d \to \mathbb{R} $.
+
+\textbf{2 решение}
+
+% ----------------------------
+$$
+\begin{aligned}
+    f^*(y)
+    &= \sup_{x \in \mathbb{R}^d} \{ \langle y, x \rangle - f(x) \} \\
+    &= \sup_{x \in \mathbb{R}^d} \{ \langle y, x \rangle - \inf_{u+v=x} (g(u) + h(v)) \} \\
+    &= \sup_{x \in \mathbb{R}^d} \{  \sup_{u+v=x} (\langle y, x \rangle - g(u) - h(v)) \} \\
+    &= \sup_{x \in \mathbb{R}^d} \{  \sup_{u+v=x} (\langle y, u \rangle - g(u) + \langle y, v \rangle- h(v)) \} \\
+    &= g^*(y) + h^*(y)
+\end{aligned}
+$$
+
+\subsection*{Задача 3. (2 балла)}
+Найдите $ f^{**}(x) $ для $ f : \mathbb{R}^d \to \mathbb{R} $:
+$$
+f(x) = \mathbb{I}\{x \in D\} = 
+\begin{cases} 
+0 & x \in D, \\ 
++\infty & x \notin D,
+\end{cases}
+$$
+где $ D \subset \mathbb{R}^d $ компактно.
+
+\textbf{3 решение}
+
+
+$$
+f^*(y) = \sup_{x \in \mathbb{R}^d}  \{ \langle y, x \rangle - f(x)  \} = \sup_{x \in D} \langle y, x \rangle,
+$$
+
+Тогда:
+$$
+f^{**}(x) = \sup_{y \in \mathbb{R}^d}  \{ \langle x, y \rangle - f^*(y)  \} = \sup_{y \in \mathbb{R}^d}  \{ \langle x, y \rangle - \sup_{z \in D} \langle y, z \rangle  \} = \sup_{y \in \mathbb{R}^d} \inf_{z \in D} \langle y, x - z \rangle.
+$$
+
+Рассмотрим два случая:
+
+
+Если $ x \in conv(D) $, то для любого $ y \in \mathbb{R}^d $ выполняется:
+$$
+\langle x, y \rangle \leq \sup_{z \in D} \langle z, y \rangle = f^*(y),
+$$
+следовательно:
+$$
+\langle x, y \rangle - f^*(y) \leq 0.
+$$
+При $ y = 0 $ достигается равенство $ 0 $, поэтому $ f^{**}(x) = 0 $.
+
+Если $ x \notin conv(D) $, то по теореме отделимости существует вектор $ y \in \mathbb{R}^d $ и число $ \alpha \in \mathbb{R} $ такие, что:
+$$
+\langle x, y \rangle > \alpha \quad \text{и} \quad \langle z, y \rangle < \alpha \quad \text{для всех } z \in D.
+$$
+Тогда:
+$$
+\langle x, y \rangle - f^*(y) = \langle x, y \rangle - \sup_{z \in D} \langle z, y \rangle \geq \langle x, y \rangle - \alpha > 0.
+$$
+Рассматривая $ t y $ при $ t \to +\infty $, получаем:
+$$
+\langle x, t y \rangle - f^*(t y) = t  ( \langle x, y \rangle - f^*(y)  ) \to +\infty,
+$$
+поэтому $ f^{**}(x) = +\infty $.
+
+
+Таким образом, второе сопряжение $ f^{**}(x) $ является индикаторной функцией выпуклой оболочки множества $ D $:
+$$
+f^{**}(x) = \mathbb{I}\{x \in conv(D)\}.
+$$
+
+
+$$
+f(x) = 
+\begin{cases} 
+0, & \text{если } x \in conv(D), \\
++\infty, & \text{если } x \notin conv(D).
+\end{cases}
+$$
+
+\end{document}

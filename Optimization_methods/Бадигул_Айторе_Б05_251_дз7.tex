@@ -1,0 +1,293 @@
+\documentclass[10pt]{article}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{stmaryrd}
+\usepackage{bbold}
+\usepackage{enumerate}
+
+\begin{document}
+
+\section{Задача 1 (3 балла)}
+
+\subsection{Пункт 1.1 (1 балл)}
+\subsubsection{Условие}
+
+\[
+S=\left\{x \in \mathbb{R}^{d} \mid x_{1} \leq 2 x_{2} \leq \ldots \leq d x_{d}\right\}
+\]
+
+\vspace{5mm}
+\subsubsection{Решение}
+
+пусть $x, y \in S$, тогда докажем что $\alpha x + (1-\alpha)y \in S$
+
+по условию $kx_k < (k+1)x_{k+1}, ky_k < (k+1)y_{k+1}$
+
+очевидно что тогда $\alpha kx_k + (1-\alpha)ky_k < \alpha (k+1)x_{k+1} + (1-\alpha) (k+1)y_{k+1}$
+
+откуда и следует что $\alpha x + (1-\alpha)y \in S$
+
+\subsection{Пункт 1.2 (1 балл)}
+\subsubsection{Условие}
+
+\[
+S=\left\{x \in \mathbb{R}^{2} \mid\left(x_{1}-x_{2}\right)^{2}+\left(x_{2}-1\right)^{2} \leq 1\right\}
+\]
+
+\subsubsection{Решение}
+
+применим преобразование к S
+\[
+\begin{pmatrix} y_1 \\ y_2 \end{pmatrix} = 
+\begin{pmatrix} 1 & -1 \\ 0 & 1 \end{pmatrix}
+\begin{pmatrix} x_1 \\ x_2 \end{pmatrix} + 
+\begin{pmatrix} 0 \\ -1 \end{pmatrix}.
+\]
+
+тогда такое преобразование переводит наше множество в единичный круг (что и является выпуклым множеством). Тогда S - является выпууклым множеством как прообраз аффинного преобразования от выпуклого множества
+
+\subsection{Пункт 1.3 (1 балл)}
+\subsubsection{Условие}
+
+\[
+S=\left\{x \in \mathbb{R}^{2} \mid x_{1}^{2} \leq x_{2} \leq x_{1}+4\right\}
+\]
+
+\subsubsection{Решение}
+
+рассмотрим два множества
+
+\[
+S_1=\left\{x \in \mathbb{R}^{2} \mid x_{1}^{2} \leq x_{2} \right\}
+\]
+
+\[
+S_2=\left\{x \in \mathbb{R}^{2} \mid x_{2} \leq x_{1}+4\right\}
+\]
+
+$S_1$ - Эпиграф $x_2 = x_1^2$ (выпуклой функции). Значит $S_1$ - выпукло
+
+$S_2$ - полуплоскость. $S_2$ тоже выпукло
+
+так как $S$ = $S_1 \cap S_2$ то $S$ тоже выпукло
+
+
+
+
+\section{Задача 2 (2 балла)}
+Пусть $S \subseteq \mathbb{R}^{d}$ и $\|\cdot\|$ — произвольная норма на $\mathbb{R}^{d}$.
+
+\subsection{Пункт 2.1 (1 балл)}
+\subsubsection{Условие}
+
+Для $a \geq 0$ определим множество $S_{a}$ как:
+\[
+S_{a}=\{x \mid \operatorname{dist}(x, S) \leq a\}, \text{ где } \operatorname{dist}(x, S)=\inf_{y \in S}\|x-y\|
+\]
+Множество $S_{a}$ называется расширенным на $a$ относительно $S$. Докажите, что если $S$ выпукло, то $S_{a}$ также выпукло.
+
+\subsubsection{Решение}
+
+Тогда по определению инфимума
+
+$\forall \varepsilon $ существует $ x_{\varepsilon}$ : $| x - x_{\varepsilon}| < a + \varepsilon$
+
+$\forall \varepsilon $ существует $ y_{\varepsilon}$ : $| y - y_{\varepsilon}| < a + \varepsilon $
+
+пусть $x, y \in S_a$. Докажем что $\alpha x + (1 - \alpha)y \in S_a $
+
+зафиксируем $\varepsilon$
+
+для $x, y$ существуют соответсвующие $x_{\varepsilon}, y_{\varepsilon}$
+
+$$
+
+| \alpha x + (1 - \alpha)y - \alpha x_{\varepsilon} - (1 - \alpha)y_{\varepsilon} | <
+
+| \alpha (x - x_{\varepsilon}) + (1 - \alpha)(y - y_{\varepsilon})| <
+
+\alpha| x - x_{\varepsilon} | + (1 - \alpha)|y - y_{\varepsilon}| < 
+
+\alpha (a + \varepsilon) + (1  -\alpha)(a + \varepsilon) = 
+
+(a + \varepsilon)
+$$
+
+по итогу мы доказали что 
+
+$\forall \varepsilon $ существует $t_{\varepsilon}$ : $| \alpha x + (1 - \alpha)y - t_{\varepsilon}| < a + \varepsilon $
+
+где $t_{\varepsilon} =  \alpha x_{\varepsilon} + (1 - \alpha)y_{\varepsilon}$
+
+получается $ \alpha x + (1 - \alpha)y \in S_a$
+
+
+\subsection{Пункт 2.2 (1 балл)}
+\subsubsection{Условие}
+
+Для $a \geq 0$ определим множество $S_{-a}$ как:
+\[
+S_{-a}=\{x \mid B(x, a) \subset S\}
+\]
+где $B(x, a)$ — открытый шар. Множество $S_{-a}$ называется суженным на $a$ относительно $S$. Докажите, что если $S$ выпукло, то $S_{-a}$ также выпукло.
+
+\subsubsection{Решение}
+
+Возьмем произвольные точки $x_1, x_2 \in S_{-a}$. По определению:
+$$
+B(x_1, a) \subset S, B(x_2, a) \subset S.
+$$
+
+$x_t = t x_1 + (1 - t) x_2$. Покажем, что $x_t \in S_{-a}$, т.е. $B(x_t, a) \subset S$.
+
+Возьмем произвольную точку $z \in B(x_t, a)$. Тогда: $|z - x_t| < a.$
+
+Заметим, что $z$ можно представить в виде:
+
+$z = x_t + v, \quad \text{где } \|v\| < a.$
+
+Тогда:
+
+$z = t x_1 + (1 - t) x_2 + v$
+
+$z = t(x_1 + v) + (1 - t)(x_2 + v)$
+
+
+Так как $x_1, x_2 \in S_{-a}$, то для любого $v$ с $|v| < a$ выполняется:
+
+$x_1 + v \in B(x_1, a) \subset S$
+
+$x_2 + v \in B(x_2, a) \subset S.$
+
+
+Поскольку $S$ выпукло, $t(x_1 + v) + (1 - t)(x_2 + v)$ также принадлежит $S$, 
+т.е. $z \in S$.
+
+Таким образом, для любого $z \in B(x_t, a)$ выполнено $z \in S$, значит:
+
+$B(x_t, a) \subset S.$
+
+Следовательно, $x_t \in S_{-a}$, что доказывает выпуклость $S_{-a}$.
+
+\section{Задача 3 (1 балл)}
+
+\subsubsection{Условие}
+
+Пусть $X \subseteq \mathbb{R}^{d}$ и $x^{0} \in X$. Докажите, что множество
+\[
+K\left(X, x^{0}\right)=\left\{y \in \mathbb{R}^{d} \mid y^{\top} x^{0} \geq y^{\top} x \ \forall x \in X\right\}
+\]
+является выпуклым конусом.
+
+\subsubsection{Решение}
+
+Докажем, что:
+
+Для любого $y \in K(X, x^0)$ и $\lambda \geq 0$ выполняется $\lambda y \in K(X, x^0)$ (свойство конуса).
+
+Для любых $y_1, y_2 \in K(X, x^0)$ и $\lambda_1, \lambda_2 \geq 0$ выполняется $\lambda_1 y_1 + \lambda_2 y_2 \in K(X, x^0)$ (свойство выпуклого конуса).
+
+
+1(свойство конуса)
+
+Пусть $y \in K(X, x^0)$ и $\lambda \geq 0$. По определению $K(X, x^0)$ для любого $x \in X$:
+
+$y^T x^0 \geq y^T x.$
+
+Умножая обе части на $\lambda \geq 0$, получаем:
+
+$\lambda y^T x^0 \geq \lambda y^T x,$
+
+что эквивалентно:
+
+$(\lambda y)^\top x^0 \geq (\lambda y)^\top x \quad \forall x \in X.$
+
+Следовательно, $\lambda y \in K(X, x^0)$.
+
+2(свойство выпуклого конуса)
+
+Пусть $y_1, y_2 \in K(X, x^0)$ и $\lambda_1, \lambda_2 \geq 0$. Рассмотрим произвольный $x \in X$. По определению $K(X, x^0)$:
+
+$y_1^T x^0 \geq y_1^T x \quad, \quad y_2^T x^0 \geq y_2^T x.$
+
+Умножая первое неравенство на $\lambda_1 \geq 0$, а второе на $\lambda_2 \geq 0$, получаем:
+
+$\lambda_1 y_1^T x^0 \geq \lambda_1 y_1^T x \quad \text{и} \quad \lambda_2 y_2^T x^0 \geq \lambda_2 y_2^T x.$
+
+Складывая эти неравенства:
+
+$\lambda_1 y_1^T x^0 + \lambda_2 y_2^T x^0 \geq \lambda_1 y_1^T x + \lambda_2 y_2^T x.$
+
+Это эквивалентно:
+$$
+(\lambda_1 y_1 + \lambda_2 y_2)^T x^0 \geq (\lambda_1 y_1 + \lambda_2 y_2)^T x.
+$$
+Так как $x \in X$ произвольный, то $\lambda_1 y_1 + \lambda_2 y_2 \in K(X, x^0)$.
+
+Таким образом, $K(X, x^0)$ является выпуклым конусом.
+
+\section{Задача 4 (2 балла)}
+
+\subsubsection{Условие}
+
+Назовём множество $X \subseteq \mathbb{R}^{d}$ «средневыпуклым», если для любых его элементов $x$ и $y$ их середина также принадлежит $X$, то есть $\frac{x+y}{2} \in X$. Докажите, что для замкнутых множеств «средневыпуклость» равносильна выпуклости.
+
+\subsubsection{Решение}
+
+пусть $x, y \in X$. Покажем что $t = \alpha x + (1-\alpha) \in X$
+
+рассмотрим такую последовательность
+
+$x_0 = \frac{x+y}{2}$
+left = x
+right = y
+если$ t \in [left, x_0]$
+тогда $right = x_0$
+иначе $left = x_0$
+
+далее \forall n натурального
+x_n = \frac{left + right}{2}
+если$ t \in [left, x_{n}]$
+тогда $right = x_n$
+иначе $left = x_n$
+
+посути мы генерируем последовательность бинарным поиском котора ясходится к $t$
+
+по своиству множества все лементы принадлежат $X$. Тогда мы нашли $\{ x_n \}_{n=0} ё\subset X$ которая сходится к  $\alpha x + (1-\alpha)$
+
+в силу замкнутости $X$ $\alpha x + (1-\alpha) \in X$
+тем самым мы доказали выпуклость множества
+
+\section{Задача 5 (2 балла)}
+
+\subsubsection{Условие}
+
+Пусть $X \in \mathbb{R}^{n \times d}, y \in \mathbb{R}^{n}$. Докажите, что будет выполнено ровно одно из двух условий:
+\begin{enumerate}
+  \item Найдётся $v \in \mathbb{R}_{+}^{d}$, что $X v=y$,
+  \item Найдётся $u \in \mathbb{R}^{n}$, что $u^{\top} X \in \mathbb{R}_{+}^{d}$ и $\langle u, y\rangle<0$.
+\end{enumerate}
+Указание: используйте теорему о строгой отделимости из пособия.
+
+\subsubsection{Решение}
+
+Рассмотрим  $K = \{Xv \mid v \in \mathbb{R}_+^d\}.$
+
+по условию $y \in K$.
+
+Если условие (1) не выполнено, то $y \notin K$. По теореме о строгой отделимости существует $u \in R^n$ такой, что $u^T z \geq 0 \forall z \in K, u^T y < 0.$
+
+Для каждого столбца $X_j$ матрицы $X$ (при $v = e_j$) имеем $u^T X_j \geq 0$, значит $u^T X \in R^d$. Таким образом, выполнено условие (2).
+
+Если же выполнены оба условия, то
+
+$0 > \langle u, y \rangle = u^T (Xv) = (u^T X) v \geq 0,$
+
+так как $u^T X \geq 0$ и $v \geq 0$. Противоречие. Значит, условия не могут выполняться одновременно. Что и требовалось доказать
+\end{document}
+
