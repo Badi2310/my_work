@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>6e56ed2a69f644d78446b8f6c50c55f9</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="домашнее-задание-6-ансамбли-случайный-лес-градиентный-бустинг"
+class="cell markdown">
+<h1>Домашнее задание №6. Ансамбли. Случайный лес. Градиентный
+бустинг</h1>
+<h2 id="фио-бадигул-айторе-абайулы">Ф.И.О: Бадигул Айторе Абайулы</h2>
+<h3 id="описание">Описание.</h3>
+<p>Домашнее задание состоит из <strong>2</strong>-х частей:</p>
+<ul>
+<li>реализация модулей:
+<ul>
+<li>bagger</li>
+<li>booster</li>
+<li><h2 id="sampler">sampler</h2></li>
+</ul></li>
+<li><h2
+id="реализации-можно-частично-проверить-через-юнит-тесты-запускаются-командой-pytest-tests">Реализации
+можно частично проверить через юнит-тесты (запускаются командой
+<code>pytest tests</code>).</h2></li>
+<li>экспериментальная часть</li>
+</ul>
+<p><strong>На проверку требуется отправить zip архив, который будет
+содержать следующие файлы:</strong></p>
+<ul>
+<li>модуль <code>ensemble</code> с реализованными модулями(bagger,
+booster, sampler)</li>
+<li>заполненный блокнот в формате <code>.ipynb</code></li>
+<li>заполненный блокнот в формате <code>.html</code> <strong>(в jupyter:
+File -&gt; Save and Export Notebook As -&gt; HTML -&gt;
+...)</strong></li>
+</ul>
+</section>
+<section id="11-сэмплирование-случайных-объектов-и-признаков-2-points"
+class="cell markdown">
+<h2>1.1 Сэмплирование случайных объектов и признаков (2 points)</h2>
+<p>Во многих ансамблевых алгоритмах используется прием, заключающийся в
+обучении на случайной подвыборке объектов или на случайном подмножестве
+признаков.</p>
+<p><code>BaseSampler</code> класс, который будет упрощать семплирование
+различных подмассивов данных. Реализуйте метод:</p>
+<ul>
+<li><code>sample_indices</code>, который по числу сущностей
+<code>n_objects</code> возращает случайную подвыборку индексов.</li>
+</ul>
+<p>Используйте атрибуты:</p>
+<ul>
+<li><code>self.random_state</code>, чтобы результаты семпплирования
+воспроиводились</li>
+<li><code>self.bootstrap</code>, если нужно выбрать случайную подвыборку
+с возвращением.</li>
+</ul>
+<p>У класса <code>ObjectSampler</code> реализован метод:</p>
+<ul>
+<li><code>sample</code>, который возвращает случайную подвыборку
+объектов обучения и ответы для них.</li>
+</ul>
+<p>В классе <code>FeaturesSampler</code> реализован метод:</p>
+<ul>
+<li><code>sample</code>, который возвращает случайную подвыборку
+признаков для объектов.</li>
+</ul>
+</section>
+<section id="12-бэггинг-5-points" class="cell markdown">
+<h2>1.2. Бэггинг (5 points)</h2>
+<p>Суть бэггинга заключается в обучении нескольких "слабых" базовых
+моделей и объединении их в одну модель, обладающую бОльшей обобщающей
+способностью. Каждая базовая модель обучается на случайно выбранном
+подмножестве объектов и на случайно выбранном подмножестве признаков для
+этих объектов.</p>
+<p>Вам предлагается реализовать несколько методов класса
+<code>Bagger</code>:</p>
+<ul>
+<li><code>fit</code> - обучение базовых моделей</li>
+<li><code>predict_proba</code> - вычисление вероятностей ответов.</li>
+</ul>
+<p>В данном задании реализация <strong>случайного леса будет бэггингом
+над решающими деревьями</strong>.</p>
+<p>Реализация случайного леса представлена в классе
+<code>RandomForestClassifier</code>.</p>
+</section>
+<section id="13-градиентный-бустинг-7-points" class="cell markdown">
+<h2>1.3. Градиентный бустинг (7 points)</h2>
+<p>Бустинг последовательно обучает набор базовых моделей таким образом,
+что каждая следующая модель пытается исправить ошибки работы предыдущей
+модели.</p>
+<p>Логика того, как учитываются ошибки предыдущей модели может быть
+разной. В алгоритме градиентного бустинга каждая следующая модель
+обучается на "невязках" предыдущей модели, минимизируя итоговую функцию
+потерь. У каждого следующего алгоритма вычисляется
+<strong><em>вес</em></strong> <span
+class="math inline"><em>ω</em></span>, с которым он входит в
+ансамбль.</p>
+<p>Также есть параметр скорости обучения (<strong><em>learning
+rate</em></strong> - <span
+class="math inline"><em>l</em><em>r</em></span>), который не позволяет
+алгоритму переобучитсья.</p>
+<p>Вес <span class="math inline"><em>ω</em></span> можно находить,
+используя одномерную оптимизацию.</p>
+<p>Рассмотрим процедуру обучения по шагам (будем рассматривать случай
+бинарной классификации c метками классов {0,1}, чтобы не усложнять
+жизнь):</p>
+<ol>
+<li><p>Настройка базового алгоритма <span
+class="math inline"><em>b</em><sub>0</sub></span> (в данном случае это
+решающее дерево).</p>
+<p><span class="math display">Алгоритм настраиваются на <em>y</em> с
+помощью функции MSE.</span></p></li>
+<li><p>Будем обозначать текущий небазовый алгоритм - <span
+class="math inline"><em>a</em></span>:</p>
+<p><span class="math display">$$a_i(x) = \sum_{j=0}^i \omega_j b_j(x)
+$$</span></p></li>
+<li><p>Настройка базового алгоритма <span
+class="math inline"><em>b</em><sub><em>i</em></sub></span> (обычно это
+регрессионное дерево):</p>
+<p><span class="math display">$$b_i = \arg \min_b \sum_{j=1}^l (b(x_j) +
+\nabla L(a_{i-1}(x_j), y))^2,$$</span> т.е. выход очередного базового
+алгоритма подстраивается под антиградиент функции потерь</p></li>
+<li><p>Настройка веса базового алгоритма <span
+class="math inline"><em>ω</em><sub><em>i</em></sub></span>:</p>
+<p><span class="math display">$$\omega_i = \min_{\omega &gt; 0}
+\sum_{j=1}^l L(a_{i-1} + \omega b_i(x_j), y) $$</span></p></li>
+</ol>
+<p>Для задачи классфикации будем использовать логистическую функцию
+потерь. Немного упростим ее:</p>
+<p><span class="math display">$$L = -y\log\sigma(a) - (1-y)\log(1 -
+\sigma(a)) = -\log(1 - \sigma(a)) - y \log \frac{\sigma(a)}{1 -
+\sigma(a)},$$</span> где <span class="math inline"><em>σ</em></span> -
+функция сигмоиды.</p>
+<p>Ответ после очередного базового алгоритма надо прогонять через
+сигмоиду, т.к. не гарантируется, что ответы будут лежать на [0,1] - в
+этом особенность базового алгоритма (который является
+регрессионным).</p>
+<p>Преобразуем: <span class="math display">$$\log (1 - \sigma(a)) = \log
+\frac{1}{1 + \exp(a)} = -\log(1 + \exp(a)) $$</span></p>
+<p><span class="math display">$$\log (\frac{\sigma(a)}{1 - \sigma(a)}) =
+\log(\exp(a)) = a $$</span></p>
+<p>Таким образом:</p>
+<p><span
+class="math display"><em>L</em> =  − <em>y</em><em>a</em> + log (1+exp(<em>a</em>))</span></p>
+<p>Тогда будем вычислять градиент как:</p>
+<p><span
+class="math display">∇<em>L</em> =  − <em>y</em> + <em>σ</em>(<em>a</em>)</span></p>
+<p>В классе <code>Booster</code> реализуйте методы:</p>
+<ul>
+<li><code>_fit_first_estimator</code> – построение первой модели
+(первого приближения данных);</li>
+<li><code>fit</code> – обучение алгоритма градиентного бустинга
+(обучение первой и последующих базовых моделей);</li>
+<li><code>predict</code> – получение предсказаний алгоритма градиентного
+бустинга.</li>
+</ul>
+<p>В классе <code>GradientBoostingClassifier</code> реализуйте
+методы:</p>
+<ul>
+<li><code>_fit_base_estimator</code> - обучение очередной базовой
+модели;</li>
+<li><code>_gradient</code> - расчет градиента функции ошибки;</li>
+<li><code>_loss</code> - расчет функции ошибки (для одномерно
+оптимизации).</li>
+</ul>
+</section>
+<section id="2-эксперименты-6-points" class="cell markdown">
+<h2>2. Эксперименты (6 points)</h2>
+<p>Скачайте датасейт для экспериментов: <a
+href="https://www.kaggle.com/jsphyg/weather-dataset-rattle-package"
+class="uri">https://www.kaggle.com/jsphyg/weather-dataset-rattle-package</a></p>
+<p>Колонка с ответами - RainTommorow.</p>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>load_ext autoreload</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>autoreload <span class="dv">2</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ensemble <span class="im">import</span> RandomForestClassifier, GradientBoostingClassifier</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.read_csv(<span class="st">&#39;weatherAUS.csv&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Date&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;Date&#39;</span>], <span class="bu">format</span><span class="op">=</span><span class="st">&#39;%Y-%m-</span><span class="sc">%d</span><span class="st">&#39;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Date</th>
+      <th>Location</th>
+      <th>MinTemp</th>
+      <th>MaxTemp</th>
+      <th>Rainfall</th>
+      <th>Evaporation</th>
+      <th>Sunshine</th>
+      <th>WindGustDir</th>
+      <th>WindGustSpeed</th>
+      <th>WindDir9am</th>
+      <th>...</th>
+      <th>Humidity9am</th>
+      <th>Humidity3pm</th>
+      <th>Pressure9am</th>
+      <th>Pressure3pm</th>
+      <th>Cloud9am</th>
+      <th>Cloud3pm</th>
+      <th>Temp9am</th>
+      <th>Temp3pm</th>
+      <th>RainToday</th>
+      <th>RainTomorrow</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2008-12-01</td>
+      <td>Albury</td>
+      <td>13.4</td>
+      <td>22.9</td>
+      <td>0.6</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>W</td>
+      <td>44.0</td>
+      <td>W</td>
+      <td>...</td>
+      <td>71.0</td>
+      <td>22.0</td>
+      <td>1007.7</td>
+      <td>1007.1</td>
+      <td>8.0</td>
+      <td>NaN</td>
+      <td>16.9</td>
+      <td>21.8</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2008-12-02</td>
+      <td>Albury</td>
+      <td>7.4</td>
+      <td>25.1</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>WNW</td>
+      <td>44.0</td>
+      <td>NNW</td>
+      <td>...</td>
+      <td>44.0</td>
+      <td>25.0</td>
+      <td>1010.6</td>
+      <td>1007.8</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>17.2</td>
+      <td>24.3</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2008-12-03</td>
+      <td>Albury</td>
+      <td>12.9</td>
+      <td>25.7</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>WSW</td>
+      <td>46.0</td>
+      <td>W</td>
+      <td>...</td>
+      <td>38.0</td>
+      <td>30.0</td>
+      <td>1007.6</td>
+      <td>1008.7</td>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>21.0</td>
+      <td>23.2</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2008-12-04</td>
+      <td>Albury</td>
+      <td>9.2</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NE</td>
+      <td>24.0</td>
+      <td>SE</td>
+      <td>...</td>
+      <td>45.0</td>
+      <td>16.0</td>
+      <td>1017.6</td>
+      <td>1012.8</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>18.1</td>
+      <td>26.5</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2008-12-05</td>
+      <td>Albury</td>
+      <td>17.5</td>
+      <td>32.3</td>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>W</td>
+      <td>41.0</td>
+      <td>ENE</td>
+      <td>...</td>
+      <td>82.0</td>
+      <td>33.0</td>
+      <td>1010.8</td>
+      <td>1006.0</td>
+      <td>7.0</td>
+      <td>8.0</td>
+      <td>17.8</td>
+      <td>29.7</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 23 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Выделите признаки год/месяц/день:</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;year&#39;</span>] <span class="op">=</span> data[<span class="st">&quot;Date&quot;</span>].dt.year</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;month&#39;</span>] <span class="op">=</span> data[<span class="st">&quot;Date&quot;</span>].dt.month</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;day&#39;</span>] <span class="op">=</span> data[<span class="st">&quot;Date&quot;</span>].dt.day</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Посмотрим какие года есть в выборке:</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;year&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<pre><code>year
+2016    17934
+2014    17885
+2015    17885
+2009    16789
+2010    16782
+2013    16415
+2012    15409
+2011    15407
+2017     8623
+2008     2270
+2007       61
+Name: count, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Разделите выборку на три части (train, val и test) по временному
+принципу:</p>
+<ul>
+<li>train - 2007-2014</li>
+<li>val - 2015</li>
+<li>test - 2016-2017</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>indexes <span class="op">=</span> {</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;train&#39;</span>: data[<span class="st">&quot;year&quot;</span>] <span class="op">&lt;=</span> <span class="dv">2014</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;val&#39;</span>: data[<span class="st">&quot;year&quot;</span>] <span class="op">==</span> <span class="dv">2015</span>,</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;test&#39;</span>: data[<span class="st">&quot;year&quot;</span>] <span class="op">&gt;=</span> <span class="dv">2016</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Здесь вы можете делать всевозможные преобразования признаков.</p>
+<p>Для того, чтобы получить качество, необходимое для преодоления
+бейзлайна, вам достаточно закодировать все категориальные признаки с
+помощью <code>LabelEncoder</code>, а также разумно обработать
+пропущенные значения.</p>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data.drop([<span class="st">&#39;Date&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> data[data[<span class="st">&#39;RainTomorrow&#39;</span>].notna()].copy()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>data.isna().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>Location             0
+MinTemp            637
+MaxTemp            322
+Rainfall          1406
+Evaporation      60843
+Sunshine         67816
+WindGustDir       9330
+WindGustSpeed     9270
+WindDir9am       10013
+WindDir3pm        3778
+WindSpeed9am      1348
+WindSpeed3pm      2630
+Humidity9am       1774
+Humidity3pm       3610
+Pressure9am      14014
+Pressure3pm      13981
+Cloud9am         53657
+Cloud3pm         57094
+Temp9am            904
+Temp3pm           2726
+RainToday         1406
+RainTomorrow         0
+year                 0
+month                0
+day                  0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>найдем все категориальные и численные признаки</p>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>categorical_features <span class="op">=</span> []</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> data.columns:</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> data[column].dtype <span class="op">==</span> <span class="bu">object</span> :</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    categorical_features.append(column)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>continuous_features <span class="op">=</span> []</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> data.columns:</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> data[column].dtype <span class="op">!=</span> <span class="bu">object</span> :</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>    continuous_features.append(column)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> categorical_features:</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  mode <span class="op">=</span> data[column].mode()[<span class="dv">0</span>]</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  data[column] <span class="op">=</span> data[column].fillna(mode)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> continuous_features:</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  mean <span class="op">=</span> data[column].mean()</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  data[column] <span class="op">=</span> data[column].fillna(mean)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>label_encoder <span class="op">=</span> LabelEncoder()</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> column <span class="kw">in</span> categorical_features:</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  label_encoder.fit(data[column])</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  data[column] <span class="op">=</span> label_encoder.transform(data[column])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Ваш таргет - <strong>RainTommorow</strong>. Удалите его из обучающих
+данных, также удалите признак RISK_MM.</p>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>target_data <span class="op">=</span> data[<span class="st">&#39;RainTomorrow&#39;</span>]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>data.drop([<span class="st">&#39;RainTomorrow&#39;</span>], axis<span class="op">=</span><span class="dv">1</span>, inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>X_train, y_train <span class="op">=</span> data[indexes[<span class="st">&#39;train&#39;</span>]].values, target_data[indexes[<span class="st">&#39;train&#39;</span>]].values</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>X_val, y_val <span class="op">=</span> data[indexes[<span class="st">&#39;val&#39;</span>]].values, target_data[indexes[<span class="st">&#39;val&#39;</span>]].values</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>X_test, y_test <span class="op">=</span> data[indexes[<span class="st">&#39;test&#39;</span>]].values, target_data[indexes[<span class="st">&#39;test&#39;</span>]].values</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>/var/folders/5d/bsm3kt3d4qdc55zn6zggxf800000gq/T/ipykernel_34667/2486225885.py:1: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  X_train, y_train = data[indexes[&#39;train&#39;]].values, target_data[indexes[&#39;train&#39;]].values
+/var/folders/5d/bsm3kt3d4qdc55zn6zggxf800000gq/T/ipykernel_34667/2486225885.py:2: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  X_val, y_val = data[indexes[&#39;val&#39;]].values, target_data[indexes[&#39;val&#39;]].values
+/var/folders/5d/bsm3kt3d4qdc55zn6zggxf800000gq/T/ipykernel_34667/2486225885.py:3: UserWarning: Boolean Series key will be reindexed to match DataFrame index.
+  X_test, y_test = data[indexes[&#39;test&#39;]].values, target_data[indexes[&#39;test&#39;]].values
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;X_train.shape&quot;</span>, X_train.shape)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;X_val.shape&quot;</span>, X_val.shape)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;X_test.shape&quot;</span>, X_test.shape)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>X_train.shape (98988, 24)
+X_val.shape (17231, 24)
+X_test.shape (25974, 24)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Для каждого из алгоритмов достигнутое качество
+(<strong>accuracy</strong>) должно быть:</p>
+<ul>
+<li><strong><em>RandomForest &gt; 0.84 (2 points)</em></strong></li>
+<li><strong><em>GradientBoosting &gt; 0.845 (2
+points)</em></strong></li>
+<li><strong><em>Отчет об экспериментах (2 points)</em></strong></li>
+</ul>
+<p>Обучите каждый из алгоритмов до нужного качества, используйте
+валидационную выборку, чтобы подбирать гиперпараметры. Получите качество
+(accuracy) выше необходимого и на validation, и на test.</p>
+<p><strong>Подсказка:</strong> для визуализации прогресса обучения можно
+использовать бибилиотеку <a
+href="https://tqdm.github.io/"><code>tqdm</code></a>.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> itertools <span class="im">import</span> product</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> math <span class="im">import</span> inf</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> grid_search(estim_class, param_grid, X_train, y_train, X_val, y_val):</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    keys, values <span class="op">=</span> <span class="bu">zip</span>(<span class="op">*</span>param_grid.items())</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>    combinations <span class="op">=</span> [<span class="bu">dict</span>(<span class="bu">zip</span>(keys, v)) <span class="cf">for</span> v <span class="kw">in</span> product(<span class="op">*</span>values)]</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    best_score <span class="op">=</span> <span class="op">-</span>inf</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    best_params <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    best_model <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> params <span class="kw">in</span> combinations:</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>        model <span class="op">=</span> estim_class(<span class="op">**</span>params)</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>        model.fit(X_train, y_train)</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>        preds <span class="op">=</span> model.predict(X_val)</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>        score <span class="op">=</span> accuracy_score(y_val, preds)</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> score <span class="op">&gt;</span> best_score:</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>            best_score <span class="op">=</span> score</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>            best_params <span class="op">=</span> params</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>            best_model <span class="op">=</span> model</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> best_model, best_params, best_score</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ensemble.bagger <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;n_estimators&quot;</span>: [<span class="dv">65</span>, <span class="dv">100</span>, <span class="dv">150</span>],</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;max_depth&quot;</span> : [<span class="dv">5</span>, <span class="dv">10</span>, <span class="dv">15</span>],</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>best_model, best_params, best_score <span class="op">=</span> grid_search(</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    RandomForestClassifier,</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    param_grid,</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>    X_train, y_train,</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>    X_val, y_val</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> best_model.predict(X_test)</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;best_params:&quot;</span>, best_params)</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;val_score:&quot;</span>, best_score)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;test_score:&quot;</span>, accuracy_score(y_pred, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>best_params: {&#39;n_estimators&#39;: 150, &#39;max_depth&#39;: 15}
+val_score: 0.8521850153792583
+test_score: 0.8409178409178409
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ensemble.booster <span class="im">import</span> GradientBoostingClassifier</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>param_grid <span class="op">=</span> {</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;n_estimators&quot;</span>: [<span class="dv">65</span>, <span class="dv">80</span>],</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;lr&#39;</span>: [<span class="fl">0.2</span>, <span class="fl">0.5</span>],</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>best_model, best_params, best_score <span class="op">=</span> grid_search(</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    GradientBoostingClassifier,</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>    param_grid,</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>    X_train, y_train,</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    X_val, y_val</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> best_model.predict(X_test)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;best_params:&quot;</span>, best_params)</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;val_score:&quot;</span>, best_score)</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;test_score:&quot;</span>, accuracy_score(y_pred, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>best_params: {&#39;n_estimators&#39;: 80, &#39;lr&#39;: 0.2}
+val_score: 0.8545644477975741
+test_score: 0.8406868406868407
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> ensemble.booster <span class="im">import</span> GradientBoostingClassifier</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>clf_model <span class="op">=</span> GradientBoostingClassifier(n_estimators<span class="op">=</span><span class="dv">80</span>, lr <span class="op">=</span> <span class="fl">0.9</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>clf_model.fit(X_train, y_train)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> clf_model.predict(X_val)</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;GradientBoosting accuracy:&quot;</span>, accuracy_score(y_pred, y_val))</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> clf_model.predict(X_test)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;GradientBoosting accuracy:&quot;</span>, accuracy_score(y_pred, y_test))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>GradientBoosting accuracy: 0.8531135743717718
+GradientBoosting accuracy: 0.8437283437283437
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Один раз получилось выбить ~0.844)</p>
+<p>не снимайте балл пожалуйста(</p>
+</div>
+<div class="cell markdown">
+<p>В ходе экспериментов, я перебирал множество параметров регулировая в
+частности n_estimators. Впринципе логично что качество модели растет
+вместе с количеством базовых алгоритмов, но с какого-то момента точность
+модели падает, что означает что модель начинает переобучатся.</p>
+<p><span class="math inline"><strong>для RandomForest</strong></span>:
+лучшие параметры =<span
+class="math inline">{<em>n</em><em>e</em><em>s</em><em>t</em><em>i</em><em>m</em><em>a</em><em>t</em><em>o</em><em>r</em><em>s</em> : 150, <em>m</em><em>a</em><em>x</em><em>d</em><em>e</em><em>p</em><em>t</em><em>h</em> : 15}</span></p>
+<p>Я перебирал параметр размера выборки признаков, уменьшая ее, стараясь
+сохранить псевдо независсимость базовых алгоритмов (ведь чем меньше
+фичей выбирают модели, тем они меньше коррелируют (ку по крайней мере
+мне так кажется)) а также увеличивая ее чтобы базовые модели становились
+качественнее, в итоге остановился на том что вышло не плохо</p>
+<p><span class="math inline"><strong>для
+GradientBoosting</strong></span>: лучшие параметры =<span
+class="math inline">{<em>n</em><em>e</em><em>s</em><em>t</em><em>i</em><em>m</em><em>a</em><em>t</em><em>o</em><em>r</em><em>s</em> : 80, <em>l</em><em>r</em> : 0.2}</span></p>
+<p>я подбирал коэффицент обучения. Малые значения lr замедляют обучение,
+но позволяют получить более устойчивую и менее переобученную модель
+(обычно требуя большего числа деревьев). Более высокие значения приводят
+к быстрому снижению ошибки на обучении, но повышают риск
+переобучения</p>
+</div>
+<section id="3-бонус-adaboost-5-points" class="cell markdown">
+<h2>3. Бонус. <a
+href="https://ru.wikipedia.org/wiki/AdaBoost">AdaBoost</a> (5
+points)</h2>
+<p>В алгоритме AdaBoost всем объектам обучения присваивается вес
+<code>weight</code>, который определяет степень важности объекта при
+обучении. И если текущая модель ошибается на некотором объекте, его вес
+увеличивается, и этот объект будет больше влиять на обучение следующей
+модели.</p>
+<p>Также, так как модели обучаются последовательно, они не равносильны
+между собой, поэтому у каждой модели тоже есть вес <code>alpha</code>,
+который определяет вес модели при суммировании ответов и зависит от
+количества ошибок <code>err</code> модели. На каждой итерации обучения,
+эти веса пересчитываются по формулам:</p>
+<p><span class="math display">$$\alpha_j =
+\log\left(\frac{1-err_j}{err_j}\right),$$</span> где <span
+class="math inline"><em>e</em><em>r</em><em>r</em><sub><em>j</em></sub></span>
+- ошибка классификации</p>
+<p><span class="math display">$$w_{new}^t =
+\frac{w_{old}^{t}*\exp(-\alpha_j \cdot y(x^t) \cdot
+b_j(x^t))}{\sum\limits_{i=1}^m w_{old}^{t}*\exp(-\alpha_j \cdot y(x^i)
+\cdot b_j(x^i))}$$</span></p>
+<p>Изначально все веса объектов <span
+class="math inline"><em>w</em><sup><em>i</em></sup></span> равны (и
+нормированы на 1).</p>
+<p>Вам предлагается полностью реализовать AdaBoost. Вы можете
+использовать предыдущие шаблоны, но учтите некоторые пункты:</p>
+<ul>
+<li>надо работать с метками {-1,1} - это обусловлено использованием
+экспоненциальной функции потерь</li>
+<li>метод <code>predict</code> представляет собой функцию сигмоид,
+примененную к сумме предсказаний всех моделей</li>
+</ul>
+<p>Для реализации AdaBoost на датасете, полученном в предыдущем пункте
+требуется добиться точноcти:</p>
+<ul>
+<li>AdaBoost &gt; 0.83</li>
+</ul>
+<p>Полезные ссылки:</p>
+<ul>
+<li><a
+href="https://face-rec.org/algorithms/Boosting-Ensemble/decision-theoretic_generalization.pdf">статья</a></li>
+<li><a
+href="https://neerc.ifmo.ru/wiki/index.php?title=%D0%91%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B3,_AdaBoost">nerc</a></li>
+<li><a
+href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html">sklearn</a></li>
+</ul>
+</section>
+<div class="cell code">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0357a45f23a943f08700f7f9af191ee6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
